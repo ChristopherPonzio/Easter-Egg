@@ -148,6 +148,7 @@ Egg.prototype.addHook = Egg.prototype.AddHook;
 let egg = new Egg();
 egg
   .AddCode("e,a,s,t,e,r", function() {
+      
     
     var body = document.getElementById('container');
     var modal = document.createElement('img');
@@ -168,6 +169,7 @@ egg
   let egg2 = new Egg();
     egg2
   .AddCode("h,u,n,t", function() {
+      
     
     var body = document.getElementById('container');
     var modal = document.createElement('img');
@@ -187,6 +189,7 @@ egg
   let home = new Egg();
   home
 .AddCode("h,o,m,e", function() {
+    
   
   var body = document.getElementById('container');
   var modal = document.createElement('img');
@@ -202,3 +205,6 @@ egg
   modal.style.display = "none";
 }}
 ).Listen();
+console.log("home");
+console.log("hunt");
+console.log("easter");
