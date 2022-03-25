@@ -145,66 +145,134 @@ Egg.prototype.addCode = Egg.prototype.AddCode;
 Egg.prototype.addHook = Egg.prototype.AddHook;
 
 //EGGSAMPLE
+let home = new Egg();
+home
+    .AddCode("h,o,m,e", function() {
+    var body = document.getElementById('container');
+    var modal = document.createElement('img');
+    modal.setAttribute("class", "myModal");
+    modal.setAttribute("src", "assets/images/Colorful Eggs and Bunny Illustrative Easter Animated Zoom Virtual Background.gif");
+    modal.setAttribute("alt", "egg 1");
+    body.appendChild(modal);
+}
+).Listen();
+
 let egg = new Egg();
 egg
   .AddCode("e,a,s,t,e,r", function() {
-      
-    
     var body = document.getElementById('container');
     var modal = document.createElement('img');
     modal.setAttribute("class", "myModal");
     modal.setAttribute("src", "assets/images/pexels-george-dolgikh-giftpunditscom-2072158.jpg");
     modal.setAttribute("alt", "egg 1");
     body.appendChild(modal);
-    var closeModal = document.createElement('button');
-    closeModal.setAttribute("class", "close");
-    closeModal.innerHTML = "X";
-    modal.appendChild(closeModal);
-    closeModal.onclick = function() {
-    modal.style.display = "none";
-  }}
+  }
   ).Listen();
 
 //egg2
   let egg2 = new Egg();
     egg2
   .AddCode("h,u,n,t", function() {
-      
-    
     var body = document.getElementById('container');
     var modal = document.createElement('img');
     modal.setAttribute("class", "myModal");
-    modal.setAttribute("src", "assets/images/egg2.png");
+    modal.setAttribute("src", "assets/images/eggHunt.png");
     modal.setAttribute("alt", "egg 1");
     body.appendChild(modal);
-    var closeModal = document.createElement('button');
-    closeModal.setAttribute("class", "close");
-    closeModal.innerHTML = "X";
-    modal.appendChild(closeModal);
-    closeModal.onclick = function() {
-    modal.style.display = "none";
-  }}
+  }
   ).Listen();
 
-  let home = new Egg();
-  home
-.AddCode("h,o,m,e", function() {
-    
-  
-  var body = document.getElementById('container');
-  var modal = document.createElement('img');
-  modal.setAttribute("class", "myModal");
-  modal.setAttribute("src", "assets/images/Colorful Eggs and Bunny Illustrative Easter Animated Zoom Virtual Background.gif");
-  modal.setAttribute("alt", "egg 1");
-  body.appendChild(modal);
-  var closeModal = document.createElement('button');
-  closeModal.setAttribute("class", "close");
-  closeModal.innerHTML = "X";
-  modal.appendChild(closeModal);
-  closeModal.onclick = function() {
-  modal.style.display = "none";
-}}
-).Listen();
+
+
+let egg3 = new Egg();
+egg3
+  .AddCode("b,u,n,n,y", function() {
+    window.location.href =
+    "https://www.novelgames.com/en/easteregghunt/";
+  }
+  ).Listen();
+
+  let egg4 = new Egg();
+egg4
+  .AddCode("e,g,g", function() {
+    window.location.href =
+    "https://www.youtube.com/watch?v=r5savRs44T8";
+  }
+  ).Listen();
+
+  let egg5 = new Egg();
+egg
+  .AddCode("l,e,t,t,h,e,g,a,m,e,s,b,e,g,i,n", function() {
+    window.location.href =
+    "https://arcadespot.com/game/toon-egg-hunt/";
+  }
+  ).Listen();
+
+  let egg6 = new Egg();
+  egg6
+    .AddCode("i,t,t,s", function() {
+      var body = document.getElementById('container');
+      var modal = document.createElement('img');
+      modal.setAttribute("class", "myModal");
+      modal.setAttribute("src", "assets/images/egg2.png");
+      modal.setAttribute("alt", "egg 1");
+      body.appendChild(modal);
+    }
+    ).Listen();
+
+    let egg7 = new Egg();
+  egg7
+    .AddCode("b,y,e", function() {
+      var body = document.getElementById('container');
+      var modal = document.createElement('img');
+      modal.setAttribute("class", "myModal");
+      modal.setAttribute("src", "assets/images/end.gif");
+      modal.setAttribute("alt", "egg 1");
+      body.appendChild(modal);
+    }
+    ).Listen();
+
+    let egg8 = new Egg();
+    egg8
+      .AddCode("e,n,d", function() {
+        var body = document.getElementById('container');
+        var modal = document.createElement('img');
+        modal.setAttribute("class", "myModal");
+        modal.setAttribute("src", "assets/images/end.gif");
+        modal.setAttribute("alt", "egg 1");
+        body.appendChild(modal);
+      }
+      ).Listen();
+
+      let egg9 = new Egg();
+      egg9
+        .AddCode("o,v,e,r", function() {
+          var body = document.getElementById('container');
+          var modal = document.createElement('img');
+          modal.setAttribute("class", "myModal");
+          modal.setAttribute("src", "assets/images/end.gif");
+          modal.setAttribute("alt", "egg 1");
+          body.appendChild(modal);
+        }
+        ).Listen();
+
+        let egg10 = new Egg();
+        egg10
+          .AddCode("q,u,i,t", function() {
+            var body = document.getElementById('container');
+            var modal = document.createElement('img');
+            modal.setAttribute("class", "myModal");
+            modal.setAttribute("src", "assets/images/end.gif");
+            modal.setAttribute("alt", "egg 1");
+            body.appendChild(modal);
+          }
+          ).Listen();
+
+console.log("bye, end, over, quit");
 console.log("home");
 console.log("hunt");
 console.log("easter");
+console.log("egg");
+console.log("bunny");
+console.log("let the games begin")
+console.log("itts");

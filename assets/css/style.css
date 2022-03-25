@@ -1,24 +1,23 @@
 .img {
     width: 100%;
     height: 100%;
+    max-height: 950px;
 }
-
-.close {
-  position:absolute top left;
-    color: rgb(209, 31, 31);
-    font-size: 40px;
-    font-weight: bold;
-  }
-
+.sor {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: auto;
+  
+}
   .myModal {
-    /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    /*z-index: 1; /* Sit on top */
     left: 0%;
     top: 0%;
     width: 100%; 
-    height: 100%; 
-    overflow: auto; /* Enable scroll if needed */
-    background-color:  var(--hue-gcablue); 
-    
+    height: 100%;
+    border: 10px solid blueviolet;
+    border-radius: 50px;
   }
+  
